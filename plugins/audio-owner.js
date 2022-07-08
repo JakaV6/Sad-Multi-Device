@@ -21,7 +21,6 @@ ptt: true , contextInfo: { showAdAttribution: true,
 handler.help = ['owner']
 handler.tags = ['info']
 handler.command = /^(owner)$/i
-handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
 export default handler
